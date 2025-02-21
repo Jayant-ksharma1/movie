@@ -12,68 +12,76 @@ body {
     text-align: center;
 }
 h1 {
-    color: greenyellow;
+    color: yellow;
     text-align: center;
     margin-top: 0;
-    font-size: 40px;
+    font-size: 50px;
     border-style: solid;
     border-color: grey;
     border-width: 10px;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
     position: absolute;
     top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 button {
-    padding: 10px 20px;
+    padding: 18px 35px;
     background-color: crimson;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 button:hover {
     background-color: darkred;
 }
 input[type="text"] {
-    padding: 10px;
+    padding: 12px;
     width: 80%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 ul {
     list-style-type: none;
     padding: 0;
 }
+p {
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
 li {
-    background-color: #333;
+    background-color: #444;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 5px 0;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: 18px;
 }
 li:hover {
     background-color: darkgray;
 }
 #totalMovies {
     color: white;
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 22px;
+    margin-top: 15px;
 }
 #clearListButton {
-    margin-top: 20px;
-    background-color: #555;
-    padding: 15px 25px;
+    margin-top: 10px;
+    background-color: #666;
+    padding: 18px 35px;
 }
